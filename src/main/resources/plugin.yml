@@ -1,0 +1,20 @@
+name: SurvivalFeatures
+version: '${project.version}'
+main: de.saltyaf.survivalfeatures.SurvivalFeatures
+api-version: 1.17
+authors: [ saltyAF, PocketHeal, CreepertimeHD ]
+
+commands:
+  sethome:
+    description: set a home
+  homes:
+    description: lists all homes
+  home:
+    description: sends you to your home
+  delhome:
+    description: deletes a home
+  settings:
+    description: changes the settings
+  vanish:
+    description: vanishes a player
+    aliases: v
